@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "#!/bin/sh" > /start-ympd.sh
-echo "/usr/bin/ympd --host $MPD_HOSTNAME --port $MPD_PORT" >> /start-ympd.sh
+echo "/usr/bin/ympd --host $MPD_HOSTNAME --port $MPD_PORT --webport $YMPD_WEB_PORT" >> /start-ympd.sh
 
 chmod +x /start-ympd.sh
 
