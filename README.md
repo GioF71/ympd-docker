@@ -51,7 +51,7 @@ You can start ympd by simply typing:
 
 We need to give access to port 8080 so we can access the ympd web interface.
 
-The following tables reports all the currently supported environment variables.
+The following table reports all the currently supported environment variables.
 
 VARIABLE | DEFAULT | NOTES
 ---|---|---
