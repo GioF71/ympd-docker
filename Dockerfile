@@ -1,4 +1,4 @@
-from ubuntu:focal
+from ubuntu:bionic
 
 ENV TZ=Europe/Rome
 ARG DEBIAN_FRONTEND=noninteractive
