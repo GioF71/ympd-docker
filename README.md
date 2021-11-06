@@ -4,11 +4,11 @@
 
 First and foremost, the reference to the awesome project:
 
-[Music Player Daemon](https://www.musicpd.org/)
+[Music Player Daemon](https://www.musicpd.org/)  
 [ympd](https://ympd.org/)
 
 ## Links
-Source: [GitHub](https://github.com/giof71/ympd-docker)<br />
+Source: [GitHub](https://github.com/giof71/ympd-docker)  
 Images: [DockerHub](https://hub.docker.com/r/giof71/ympd)
 
 ## Why
