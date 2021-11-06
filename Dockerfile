@@ -1,6 +1,26 @@
-from alpine
+from ubuntu:focal
 
-RUN apk add --no-cache ympd
+ENV TZ=Europe/Rome
+ARG DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update
+RUN apt-get install -y libmpdclient-dev
+RUN apt-get install -y git
+RUN apt-get install -y cmake
+RUN apt-get install -y libssl-dev
+
+RUN rm -rf /var/lib/apt/lists/*
+
+RUN mkdir /src
+WORKDIR /src
+RUN git clone https://github.com/notandy/ympd.git
+WORKDIR /src/ympd
+
+RUN mkdir /src/ympd/build
+WORKDIR /src/ympd/build
+RUN cmake .. -DCMAKE_INSTALL_PREFIX:PATH=/usr
+RUN make
+RUN make install
 
 EXPOSE 8080
 
