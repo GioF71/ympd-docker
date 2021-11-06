@@ -1,4 +1,4 @@
-# mpd-alsa-docker - a Docker image for mpd with alsa
+# ympd-docker - a Docker image for ympd
 
 ## Reference
 
@@ -67,3 +67,9 @@ You can build (or rebuild) the image by opening a terminal from the root of the 
 
 It will take very little time even on a Raspberry Pi. When it's finished, you can run the container following the previous instructions.
 Just be careful to use the tag you have built.
+
+## Issues
+
+I am currently using ubuntu:bionic as a base image due to a linker issue on the arm/v7 build.
+I will try to upgrade to a more current base image as soon as possibile.
+
