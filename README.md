@@ -2,7 +2,7 @@
 
 ## Reference
 
-First and foremost, the reference to the awesome project:
+First and foremost, the references to the awesome projects:
 
 [Music Player Daemon](https://www.musicpd.org/)  
 [ympd](https://ympd.org/)
